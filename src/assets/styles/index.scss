@@ -1,0 +1,43 @@
+
+@import "./element-ui.scss";
+@import "./transition.scss";
+
+a {
+  text-decoration: none;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-vertical {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flex-auto {
+  flex: 1;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}

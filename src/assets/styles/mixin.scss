@@ -1,0 +1,16 @@
+
+//文本溢出省略号显示
+@mixin ellipsis($line:1){
+  @if $line==1 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  @else {
+      display: -webkit-box;
+      line-clamp: $line;
+      box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+}
